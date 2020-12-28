@@ -82,7 +82,7 @@
                 console.log('Initial images loaded!.');
                 // simulate CLICK
                 setTimeout(function() {
-                    //document.getElementById("MenuTitle").click();
+                    document.getElementById("MenuTitle").click();
                 }, 1000);
             }
             //
