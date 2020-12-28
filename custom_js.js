@@ -67,7 +67,7 @@ $(function () {
             var perc = ((100 / tot * c) << 0);
             //topLine.style.width = perc;
             //line.style.width = perc;
-            stickyMenu.style.width = 45 + (perc / 2) + "%";
+            stickyMenu.style.width = 10 + (perc / 2) + "%";
             title.innerHTML = "";
             title.innerHTML = "Loading " + perc + "%";
             if (c === tot) return doneLoading();
