@@ -31,6 +31,8 @@ var mixer = mixitup(containerEl, {
 
 function pageIsLoaded() {
 
+    console.log("NEW CHANGE!@");
+
         [].forEach.call(document.querySelectorAll('.initial-hide'), function (el) {
         el.style.visibility = 'visible';
     });
