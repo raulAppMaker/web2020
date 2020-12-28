@@ -1,9 +1,6 @@
-<!-- 
-MixItUp FILTERING
--->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
 
-<script>
+//MixItUp FILTERING
+
     // Set the reference to the container
     const containerEl = document.getElementById("WorksContent");
     //const containerEl = document.querySelector("WorksContent")
@@ -25,13 +22,13 @@ MixItUp FILTERING
     });
   	//
   	
-</script>
 
-<!-- 
-INITIAL HIDDEN ELEMENTS
--->
 
-<script>
+
+//INITIAL HIDDEN ELEMENTS
+
+
+
   
     function pageIsLoaded() {
 
@@ -41,13 +38,11 @@ INITIAL HIDDEN ELEMENTS
     }
     document.addEventListener('DOMContentLoaded', pageIsLoaded);
 
-</script>
 
-<!-- 
-PRELOADER
--->
 
-<script>
+
+//PRELOADER
+
   
     $(function() {
         function loadbar() {
@@ -101,14 +96,8 @@ PRELOADER
         document.addEventListener('DOMContentLoaded', loadbar, false);
     }());
 
-</script>
+// SCROLL INTO VIEW
 
-<!-- 
-SCROLL INTO VIEW
--->
-
-<script>
-  
     $(window).scroll(allInView);
     //
     function isScrolledIntoView(elem) {
@@ -140,15 +129,7 @@ SCROLL INTO VIEW
         }
     }
 
-</script>
-
-<!--
-PROJECT LOADING LOGIC
--->
-<script src="https://raulhernandez.co.uk/web2020/api/flowtype.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<script>
+// PROJECT LOADING LOGIC
   
     var workItems = document.getElementsByClassName("work-item");
     var main_img = $(".project-main-img");
@@ -256,5 +237,3 @@ PROJECT LOADING LOGIC
       });
       console.log (elem.css('font-size'));
     }
-</script>
-
