@@ -1,8 +1,7 @@
 //MixItUp FILTERING
 
 // Set the reference to the container
-const containerEl = document.getElementById("WorksContent");
-//const containerEl = document.querySelector("WorksContent")
+var containerEl = document.getElementById("WorksContent");
 // Call the MixitUp to that container
 var mixer = mixitup(containerEl, {
     controls: {
